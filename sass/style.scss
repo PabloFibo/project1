@@ -1,5 +1,101 @@
+/* Variables*/
+
+$marker: 'Permanent Marker', cursive;
+$header: 'Oswald', sans-serif ;
+$text: 'Quattrocento' serif;
+
 /* Navigation */
 
-.container{
-  background-color: yellow;
+body {
+  margin: auto;
 }
+
+.navigation {
+  position: relative;
+  margin: auto;
+}
+
+.nav-left {
+  font-family: $marker;
+  list-style-type: none;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  color: yellow;
+  text-shadow: 1px 1px black;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 15px;
+  padding: 15px;
+  font-family: $header;
+  list-style-type: none;
+  text-transform: uppercase;
+  color:  white;
+  text-shadow: 1px 1px black;
+}
+
+.nav-right li {
+  padding: 0 30px;
+  font-size: 17px;
+}
+
+/* Splash */
+
+.splash img {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.splash-inner .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid red;
+  height: 500px;
+ }
+
+ .splash-inner h3 {
+   font-size: 45px;
+   font-family: $text;
+   text-transform: capitalize;
+   color: white;
+   text-shadow: 2px 2px black;
+   display: flex;
+   justify-content: center;
+   line-height: 0.5;
+ }
+
+ .splash-inner h1 {
+   font-size: 75px;
+   font-family: $header;
+   text-transform: uppercase;
+   line-height: 0.5;
+   letter-spacing: 5px;
+   color: white;
+   text-shadow: 2px 2px black;
+ }
+ .btn-splash {
+   display: inline-block;
+   min-width: 250px;
+   margin: 25px auto 0 auto;
+   padding: 18px;
+   text-decoration: none;
+   border: 1px solid black;
+   text-align: center;
+   cursor: pointer;
+   background-color: #ffd32a;
+   border-radius: 5px;
+   color: white;
+   font-size: 25px;
+   text-transform: uppercase;
+   margin-left: 33%;
+ }
