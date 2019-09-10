@@ -52,6 +52,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  height: 750px;
 }
 
 .splash-inner .container {
@@ -59,10 +60,9 @@ body {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-align: end;
-      align-items: flex-end;
-  border: 1px solid red;
-  height: 500px;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 750px;
 }
 
 .splash-inner h3 {
@@ -103,5 +103,75 @@ body {
   font-size: 25px;
   text-transform: uppercase;
   margin-left: 33%;
+}
+
+/* services */
+.services {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.services .title {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.services h3 {
+  font-size: 45px;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  line-height: 0.5;
+}
+
+.services h5 {
+  font-size: 20px;
+  font-family: "Quattrocento" serif;
+  font-style: italic;
+  color: grey;
+  line-height: 0.5;
+}
+
+.description .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 35px 25px;
+  text-align: center;
+}
+
+.description h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+
+.description p {
+  font-size: 15px;
+  font-family: "Quattrocento" serif;
+  color: grey;
+  line-height: 1.5;
+}
+
+.description i {
+  font-size: 35px;
+  padding: 20px;
+  color: #ffd32a;
+  border-radius: 50%;
+  box-sizing: content-box;
+  border: 2px solid #ffd32a;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
