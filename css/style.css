@@ -179,6 +179,7 @@ body {
 .gallery {
   position: relative;
   background-color: #f1f2f6;
+  padding-bottom: 80px;
 }
 
 .gallery-title {
@@ -199,16 +200,17 @@ body {
 }
 
 .gallery h5 {
-  font-size: 20px;
-  font-family: "Quattrocento" serif;
+  font-size: 15px;
   font-style: italic;
   color: grey;
+  font-family: "Quattrocento" serif;
   line-height: 0.5;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   margin: 10px;
+  text-transform: capitalize;
 }
 
 .gallery h4 {
@@ -272,5 +274,44 @@ body {
   margin: 15px;
   padding: 0;
   background-color: white;
+}
+
+/* footer */
+.foot .container {
+  position: relative;
+  padding: 25px 0;
+}
+
+.foot .row {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  width: 100%;
+  margin-left: 70px;
+}
+
+.foot .col-sm-3 {
+  font-size: 13px;
+  font-family: "Quattrocento" serif;
+  color: grey;
+}
+
+.foot .col-sm-3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.foot i {
+  font-size: 35px;
+  padding: 5px;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

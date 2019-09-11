@@ -167,6 +167,7 @@ body {
 .gallery {
   position: relative;
   background-color: #f1f2f6;
+  padding-bottom: 80px;
 }
 
 .gallery-title {
@@ -185,15 +186,15 @@ body {
 }
 
 .gallery h5 {
-  font-size: 20px;
-  font-family: $text;
+  font-size: 15px;
   font-style: italic;
   color: grey;
+  font-family: $text;
   line-height: 0.5;
   display: flex;
   justify-content: center;
   margin: 10px;
-
+  text-transform: capitalize;
 }
 
 .gallery h4 {
@@ -249,4 +250,38 @@ body {
   margin: 15px;
   padding: 0;
   background-color: white;
+}
+
+/* footer */
+
+.foot .container {
+  position: relative;
+  padding: 25px 0;
+}
+
+.foot .row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 70px;
+}
+
+.foot .col-sm-3 {
+  font-size: 13px;
+  font-family: $text;
+  color: grey;
+}
+
+.foot .col-sm-3 {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.foot i {
+  font-size: 35px;
+  padding: 5px;
+  color: black;
 }
